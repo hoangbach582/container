@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main {
+    font-family: "Segoe UI",Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.title {
+    --height: 74.28px;
+    height: var(--height);
+    line-height: var(--height);
+    padding: 0 16px;
+    background-color: #009688;
+    color: #ffffff;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 36px;
+}
+
+.container_card {
+    margin: 0 141.5px;
+}
+
+.container_card .card {
+    display: flex;
+    margin: 16px;
+}
+
+.container_card .card img {
+    flex: 1;
+}
+
+.container_card .card .card-img {
+    width: 33.33333%;
+}
+
+.container_card .card .sites-title {
+    flex: 2;
+    padding: 0 16px;
+}
+
+.container_card .card .sites-title h2 {
+    margin: 10px 0;
+    font-size: 30px;
+    font-family: "Segoe UI", Arial, sans-serif;
+    font-weight: 400;
+}
+
+.container_card .card .sites-title p {
+    margin: 15px 0;
+    font-size: 15px;
+    font-family: Verdana;
+}
